@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap');
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+        body {
+            background-color: #303841;
+            color: #f8f8f2;
+            font-family: 'Fira Code', monospace;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .container {
+            background-color: #37404a;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            background-color: #3b4e70;
+            color: #f9ae57;
+            text-align: center;
+            font-size: 24px;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section-title {
+            background-color: #303841;
+            color: #e5b567;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+        }
+        .icon {
+            margin-right: 10px;
+            color: #e5b567;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            padding: 8px;
+            border: 1px solid #49483e;
+        }
+        th {
+            background-color: #75715e;
+            color: #d8dee9;
+            border-radius: 5px;
+        }
+        td {
+            background-color: #434e5b;
+            color: #d8dee9;
+        }
+        .highlight {
+            color: #d6d6d6;
+        }
+        .stat {
+            color: #a6e22e;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1><i class="fas fa-code icon"></i>#name#'s Repo Commit Stats</h1>
+
+        <table>
+            <tr>
+                <td class="highlight"><i class="fas fa-building-circle-check icon"></i>Project Owner</td>
+                <td class="stat">#owner#</td>
+            </tr>
+            <tr>
+                <td class="highlight"><i class="fas fa-users icon"></i>Contributors Count</td>
+                <td class="stat">#contributor#</td>
+            </tr>
+            <tr>
+                <td class="highlight"><i class="fas fa-calendar-alt icon"></i>Period</td>
+                <td class="stat">#tanggal#</td>
+            </tr>
+            <tr>
+                <td class="highlight"><i class="fas fa-code-branch icon"></i>Total Commits</td>
+                <td class="stat">#commit# Commits</td>
+            </tr>
+            <tr>
+                <td class="highlight"><i class="fas fa-chart-line icon"></i>Commit Average</td>
+                <td class="stat">#commit_average# Commits/day</td>
+            </tr>
+        </table>
+
+
+        <-- HERE -->
+        
+    </div>
+
+</body>
+</html>
